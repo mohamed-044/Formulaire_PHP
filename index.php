@@ -10,8 +10,8 @@
     <section>
     <h1>Connexion</h1>
     <form action="config.php" method="POST">
-        <label>Identifiant</label>
-        <input type="text" name="id">
+        <label>Email</label>
+        <input type="text" name="email">
         <label>Mot de passe</label>
         <input type="password" name="mdp">
         <input type="submit" value="Valider">  
