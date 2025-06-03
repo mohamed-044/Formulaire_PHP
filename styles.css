@@ -46,3 +46,7 @@ form input[type="submit"] {
     margin: 10px 0;
     text-align: center;
 }
+.message {
+    color: #fff;
+    font-size: 25px;
+}

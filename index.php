@@ -1,4 +1,5 @@
 <?php
+    session_start();
     if(isset($_POST['bouton-valider'])){
     if(isset($_POST['email']) && isset($_POST['mdp'])) {
     $email = $_POST['email'];
@@ -13,7 +14,7 @@
     $num_ligne = mysqli_num_rows($req);
     if($num_ligne > 0){
         header("Location: bienvenue.php");
-        exit();
+        $_SESSION['email'] = $email;
     } else {
         $erreur = "Adresse Mail ou Mot de passe incorrect !";
     }
