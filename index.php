@@ -9,7 +9,7 @@
 <body>
     <section>
     <h1>Connexion</h1>
-    <form action="" method="POST">
+    <form action="config.php" method="POST">
         <label>Email</label>
         <input type="text" name="email">
         <label>Mot de passe</label>
